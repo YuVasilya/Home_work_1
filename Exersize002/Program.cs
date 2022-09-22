@@ -1,7 +1,13 @@
 ﻿Console.WriteLine("Find max ");
-int a = 44;
-int b = 5;
-int c = 78;
+int a;
+Console.Write("Number a = ");
+a = Convert.ToInt32(Console.ReadLine());
+int b;
+Console.Write("Number b = ");
+b = Convert.ToInt32(Console.ReadLine());
+int c;
+Console.Write("Number c = ");
+c = Convert.ToInt32(Console.ReadLine());
 int max = a;
 if (a > max) max = a;
 if (b > max) max = b;
